@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "https://backend-prueba.onrender.com";
+const API_URL = "https://backend-prueba-production-a3c3.up.railway.app/tareas";
 
 function App() {
   const [tareas, setTareas] = useState([]);
